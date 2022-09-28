@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
               borderRadius: BorderRadius.circular(onPress ? 50 : 15),
             ),
             duration: Duration(milliseconds: 1700),
-            width: onPress ? 50 : 150,
+            width: onPress ? 55 : 150,
             height: onPress ? 40 : 50,
             alignment: Alignment.center,
             child: onPress
