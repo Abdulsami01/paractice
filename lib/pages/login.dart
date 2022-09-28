@@ -26,7 +26,10 @@ class _LoginState extends State<Login> {
             });
 
             await Future.delayed(Duration(milliseconds: 1900));
-            Navigator.pushNamed(context, MyRotues.homeRoute);
+            await Navigator.pushNamed(context, MyRotues.homeRoute);
+            setState(() {
+              onPress = false;
+            });
           },
           child: AnimatedContainer(
             decoration: BoxDecoration(
