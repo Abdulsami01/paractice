@@ -1,4 +1,4 @@
-import 'package:bootcamp/pages/utils/routes.dart';
+import 'package:bootcamp/utils/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
